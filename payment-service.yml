@@ -6,10 +6,6 @@ eureka:
       defaultZone: http://eureka-server:8761/eureka
       
 microservices:
-  payment-service:
-    endpoints:
-      endpoint:
-        uri: http://payment-service/payment-api/doPayment
   order-service:
     endpoints:
       endpoint:
